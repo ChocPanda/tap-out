@@ -1,5 +1,31 @@
 # tap-out (patched)
 
+<p align="center">
+  <a href="https://circleci.com/gh/ChocPanda/tap-out" alt="CircleCI">
+    <img src="https://circleci.com/gh/ChocPanda/tap-out/tree/master.svg?style=shield"/>
+  </a>
+  <a href="https://david-dm.org/ChocPanda/tap-out" alt="dependencies">
+    <img src="https://david-dm.org/ChocPanda/tap-out.svg"/>
+  </a>
+  <a href="https://snyk.io/test/github/ChocPanda/tap-out?targetFile=package.json" alt=KnownVulnerabilities>
+    <img src="https://snyk.io/test/github/ChocPanda/tap-out/badge.svg?targetFile=package.json">
+  </a>
+  <a href="https://www.npmjs.com/package/@chocpanda/tap-out" alt="npm">
+    <img alt="npm" src="https://img.shields.io/npm/v/@chocpanda/tap-out.svg?label=npm%40latest&style=popout">
+  </a>
+  <a href="https://github.com/ChocPanda/tap-out/blob/master/LICENSE" alt="license">
+    <img src="https://img.shields.io/github/license/ChocPanda/tap-out.svg?style=popout"/>
+  </a>
+  <a href="http://commitizen.github.io/cz-cli/" alt="Commitizen friendly" >
+    <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg"/>
+  </a>
+  <a href="https://github.com/semantic-release/semantic-release" alt="semantic-release">
+    <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg"/>
+  </a>
+</p>
+
+
+
 > Node 14 (or 13 --harmony) is required in this fork
 
 A different tap parser
@@ -216,3 +242,11 @@ git clone git@github.com:scottcorgan/tap-out.git && cd tap-out
 npm install
 npm test
 ```
+
+## Contributions
+
+See our [contributing doc](./CONTRIBUTING.md), be sure to checkout the [code of conduct](./CONTRIBUTING.md#code-of-conduct)
+
+### Conventional Commits
+
+This project used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.3/#specification) to manage versions and releases of the library therefore when making a commit please use `npm commit <COMMIT_PARAMETERS>` and this will guide you through writing a conventional commit message which can be understood work with the ci pipeline
